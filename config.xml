@@ -1,10 +1,14 @@
-<widget xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0" id="com.ctalcazar.aehr" version="1.0.9">
+<widget xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0" id="com.ctalcazar.aehr" version="1.0.10">
   <name>AEHR</name>
   <description>App oficial de la Asociación Española de Hígado y Riñón.</description>
   <author href="http://aehr.es" email="secretaria_aehr@aehr.es">AEHR</author>
   <content src="index.html"/>
   <preference name="DisallowOverscroll" value="true"/>
   <preference name="android-minSdkVersion" value="14"/>
+	
+  <config-file platform="ios" parent="NSPhotoLibraryUsageDescription" mode="replace">  
+      <string>La aplicación desea acceder a la galería</string> 
+  </config-file>
   
   <plugin name="cordova-plugin-media-capture" source="npm" spec="*">
   	<variable name="CAMERA_USAGE_DESCRIPTION" value="La aplicación desea acceder a la cámara." />
