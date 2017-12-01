@@ -1,4 +1,4 @@
-<widget xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0" id="com.ctalcazar.aehr" version="1.0.8">
+<widget xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0" id="com.ctalcazar.aehr" version="1.0.9">
   <name>AEHR</name>
   <description>App oficial de la Asociación Española de Hígado y Riñón.</description>
   <author href="http://aehr.es" email="secretaria_aehr@aehr.es">AEHR</author>
